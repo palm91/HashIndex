@@ -92,3 +92,10 @@ unique campaign hits; 2 were already indexed and 166 were new. The
 rehash-verified pairs are retained in
 `linux_concat3_verbs24_middle_top5000_20260727_new.csv`, bringing
 `hashes/scr/bo7_generated.csv` to 3,144 unique exact mappings.
+
+The next fixed-verb band searched middle-token ranks 5,001 through 10,000
+(6.0 billion candidates). It produced 36 exact hits; 33 were new to the
+VM campaign set and 32 were new to this index. The rehash-verified pairs are
+retained in
+`linux_concat3_verbs24_middle_rank5001_10000_20260727_new.csv`, bringing
+`hashes/scr/bo7_generated.csv` to 3,176 unique exact mappings.
