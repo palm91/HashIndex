@@ -75,3 +75,12 @@ produced 72 exact T10 hits; 5 were already indexed and 67 were new. The new,
 rehash-verified pairs are retained in
 `linux_depth2_p50000x50000_20260727_new.csv`, bringing
 `hashes/scr/bo7_generated.csv` to 2,750 unique exact mappings.
+
+Follow-up depth-2 campaigns covered the remaining underscore-position blocks
+and the complete no-separator first-token cross-product without rerunning
+recorded pair domains. The no-separator family was the productive one: it
+produced 248 campaign-new exact hits across 5,012,700,000 candidates. After
+rehash verification, canonical-casing checks, and deduplication against this
+index, all follow-up runs contributed 228 new mappings. They are retained in
+`linux_depth2_followup_20260727_new.csv`, bringing
+`hashes/scr/bo7_generated.csv` to 2,978 unique exact mappings.
