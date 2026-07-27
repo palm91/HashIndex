@@ -68,3 +68,10 @@ Twenty-six were already known and 358 were new. The new, rehash-verified pairs
 are retained in `linux_overnight_new.csv`. After all campaigns,
 `hashes/scr/bo7_generated.csv` contains 2,683 unique exact mappings and
 `hashes/global/bo7_gsc_generated.csv` contains 290 unique exact x64 mappings.
+
+The disjoint Linux depth-2 campaign searched 50,000 ranked first-position
+tokens by 50,000 ranked last-position tokens (2.5 billion candidates). It
+produced 72 exact T10 hits; 5 were already indexed and 67 were new. The new,
+rehash-verified pairs are retained in
+`linux_depth2_p50000x50000_20260727_new.csv`, bringing
+`hashes/scr/bo7_generated.csv` to 2,750 unique exact mappings.
