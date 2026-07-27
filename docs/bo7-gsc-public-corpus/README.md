@@ -84,3 +84,11 @@ rehash verification, canonical-casing checks, and deduplication against this
 index, all follow-up runs contributed 228 new mappings. They are retained in
 `linux_depth2_followup_20260727_new.csv`, bringing
 `hashes/scr/bo7_generated.csv` to 2,978 unique exact mappings.
+
+The fixed-verb three-part concatenation campaign then searched 24 GSC verb
+prefixes by the top 5,000 middle-position tokens and 50,000 endings
+(6.0 billion candidates across two disjoint ranked bands). It produced 168
+unique campaign hits; 2 were already indexed and 166 were new. The
+rehash-verified pairs are retained in
+`linux_concat3_verbs24_middle_top5000_20260727_new.csv`, bringing
+`hashes/scr/bo7_generated.csv` to 3,144 unique exact mappings.
