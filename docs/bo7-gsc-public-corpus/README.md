@@ -99,3 +99,10 @@ VM campaign set and 32 were new to this index. The rehash-verified pairs are
 retained in
 `linux_concat3_verbs24_middle_rank5001_10000_20260727_new.csv`, bringing
 `hashes/scr/bo7_generated.csv` to 3,176 unique exact mappings.
+
+A second fixed-verb set searched 24 additional GSC prefixes by the top
+5,000 middle tokens and 50,000 endings (6.0 billion candidates). It
+produced 68 exact hits and 63 VM-new rows. Two rows were already indexed and
+one case-only alias retained the existing canonical spelling, leaving 60 new
+mappings in `linux_concat3_verbs24b_middle_top5000_20260728_new.csv`.
+`hashes/scr/bo7_generated.csv` now contains 3,236 unique exact mappings.
