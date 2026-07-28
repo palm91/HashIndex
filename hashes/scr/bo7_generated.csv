@@ -251,6 +251,7 @@
 16df4c1521e68ea1,room_nodes_struct
 16f333f9d8797ee6,fade_out_controls
 16f71076d4e5b6d1,hitlocations
+16f7a983ce97090e,hint_add_simple_wait
 16f95e1782afb830,restoredweapon
 1703fd5735aab89c,nudgethreshold
 17129598c6a62bce,get_area_swap_state
@@ -341,6 +342,7 @@
 1d9cce4d5f1a2e01,healthstate
 1db0768558d44471,follow_path_struct
 1dc2a44fbcb63c53,path_accuracy
+1dcd5307e18e1464,player_scene_play_wait_skip_coordinated
 1dfd9b1468c691c6,simple_unlock_door
 1e118d91a21927c7,partmap
 1e1f4e1467e2e664,wasinvehicle
@@ -509,6 +511,7 @@
 2e78040d9e12228d,support_1_scriptable
 2e8837cfc64578a4,casthitnorm
 2eb71d32b982e8a4,montage_gl_facial
+2ec1316bb3f8cf28,init_scene_event_lights
 2ec75fc3ad5e9f94,validator_notetrack
 2ed9fde0aac7e7eb,impactfunc_molotov
 2edb20fbedfb0fdc,a_xcam_players
@@ -544,6 +547,7 @@
 3112e7aaad668534,v_activity_center
 31132eddb426e3fd,shot_get_name
 311a03fbdc4999ff,sweepcooldownduration
+312f5bf4d47d6f47,generic_enter_end_turret
 3135199e58462f72,leveldataforseat
 313b18d2a6e3ef82,stuckinfo
 31522db4303bffeb,handle_state_notetracks
@@ -682,6 +686,7 @@
 3d38a82b4ab1df3f,zombie_base_health
 3d3f02fd7a5fbeab,waitforcapend
 3d49a6c56cd664db,vehiclebundlesuffix
+3d4acb78f07de5d1,generic_exit_end_turret
 3d95bbd7e1921b5a,get_vehicle_asset
 3da7a23e38f374f4,wait_vo_data
 3dce0566c67a1e0c,blast_damage_outer
@@ -884,6 +889,7 @@
 500b22e351d5aed7,unlocks
 504853392debcdee,animstartsec
 5083ecfd234744fa,ai_cornercheck_behaviors_default
+5085f5ebc9b25c97,flag_set_on_condition
 50a0af5f47ae9a88,reset_metabone_health
 50b0ba3d0e90b5fa,are_players_enemies
 50c7ab561db8987d,player_offhand_pullback
@@ -1075,6 +1081,7 @@
 63548a594a6a750c,stop_msg
 63670f18e38af538,templateclass
 636fd0912ee154e4,explosionowner
+63726cf876765909,ent_flag_waitopen_any_array
 637bdc778b4b74de,diceroll
 6392afac087ef0fc,deathscenestop
 63aa56d79a8fa5c2,too_diagonal_slope
@@ -1174,6 +1181,7 @@
 6cae907205bf9094,useinstancefunc
 6cbb0a60ecb75208,enableplayerusesharedfunc
 6cd7a09a0a9ec7fc,arrow_end_right
+6d028f1837a963d9,clear_allow_movement_player
 6d0ae726d7ea8843,entity_mark
 6d14360d020a276c,nvgmodeldown
 6d36ad5448cf846b,shottimeinfo
@@ -1643,6 +1651,7 @@
 99408de602ffa24c,getattachmentsblocked
 99517a81df462d56,update_riot_shield
 995a440a1778e156,infinite
+99610fbefbbd9c80,start_notetrack_scriptable_wait
 9989744138addf81,startxangle
 99922c35927d90cc,huskdamageableparts
 99a624d3834b9ef5,valuesid
@@ -1919,6 +1928,7 @@ b4d2139b94bade17,getsuperbundlefromoffhandweaponnamesharedfunc
 b4ee9a9cccaf970a,maxdrawdist
 b4f9b56c79fe847a,hide_bouncecards
 b4fd5efac46268bf,monitorstandingonvehiclethrottle
+b50230bef1a7445a,flag_wait_any_array_return
 b503ee22461f552e,playeranim
 b520987fda268860,turretindexes
 b56e40753d91795e,offtimeclose
@@ -1997,6 +2007,7 @@ bc40dbab25779e55,enemy_allies_present
 bc59de7384ac38a3,order_attack_seq
 bc6db3e3f00be704,isloadoutindexdefaultsharedfunc
 bc97532384f0fc0d,nodetoself
+bcfbbdb86d349f29,ent_flag_wait_any_array
 bd104b2c8998717a,player_ads_end_callback
 bd160eb7f794536d,obb_center
 bd7697d289dbe50d,ai_focus_behaviors_default
@@ -2255,6 +2266,7 @@ d6a74ec238b369fa,clearoobsharedfunc
 d6bfc6b808e468e0,newmaxhealth
 d73d29dcf609e9c5,clear_empsharedfunc
 d746e379b9cefa52,debug_setup_devgui
+d74f9d413aca8704,bundle_get_shot_name
 d7634e6ca8be72ae,getclasschoicesharedfunc
 d76d0ed9cd8cb0ab,sceneobjectassettype
 d7e4fea731d24020,heavy_visual_callback
@@ -2382,6 +2394,7 @@ e279c38a4165c87c,script_pathdir
 e28cc7fd38e69ee0,attackerguid
 e29d79476888e0ce,cleaninstancefunc
 e2af6ee2a618e084,show_hud_tutorial_message
+e2baa5896d5756cc,ent_flag_wait_any_array_return
 e2fc2557f8f4b514,prevplaybackrate
 e3215a946a72d123,aligncheckindex
 e365d8f09a7f6f27,operatorisequipped
@@ -2534,6 +2547,7 @@ f0b1f72ccabc6232,toseatinfo
 f0c9dd66f3a1e048,checkloc
 f0ca1623f05b9982,is_entity_contested
 f0d0d9b19f14de7d,isusingstackablehitmarker
+f0da178eb06ccf2d,scene_play_wait_skip_coordinated_cleanup
 f0e2d33d0023af0b,ismanglercannon
 f0f2234a3b887900,delete_linked_scriptables
 f123651f09469aa9,defaultspecificaitype
@@ -2671,6 +2685,7 @@ fddcebec8b927a00,torpedo_origin
 fde35f1461ef68b1,watchforteamchange
 fdf8ccccf050d853,configbundlename
 fe088909b848f89b,num_damage_ticks
+fe09f8f20a29f513,set_entity_mark_origin
 fe1d797bd2f6438b,blueprintsarray
 fe4b478ffea4eb8f,rideranimpos
 fe542309baab15b5,lowerasmname
