@@ -365,6 +365,7 @@
 1fe58ae318378aa8,can_infil_reinforcements
 1ff4e2b86b622b50,maptable
 1fff04d818ac749f,cap_shouldreactmed
+20012a3279532ca5,set_allow_offhand_shield
 2036c40369a83274,vehicledatab
 2036c70369a8390d,vehicledataa
 203f0e1e8406d7e0,distance_2d
@@ -535,6 +536,7 @@
 30789810ab278dd6,flag_wait_all_array
 3096a235705407c2,divisorlow
 3096c8fdc9eba2b4,hint_data
+3097ce0f6896559b,player_prestream_clear
 30a59d288b9a5556,baseweightratio
 30b48765c57a3722,magicbulletsharedfunc
 30c65d47028f9ff4,seatenterarray
@@ -966,6 +968,7 @@
 58b21d7fc83c194b,isdemotion
 58db9c7cee228798,player_revive_restore
 58f99377778ddd25,lockonlaunchergettargetarraysharedfunc
+5916270813189d5e,player_ads_begin_callback
 5918594658d3ffba,drop_to_navmesh
 5927005df7225d65,last_radius
 592c2f90b304c13a,dyndofexp_thread
@@ -1704,6 +1707,7 @@
 9f9e64e6f0d5a2c0,bootstrap
 9fb3f4e85f34d87b,object_match_entity
 9fc2fec557b1339b,deprecatedtraversethink
+9fdab9b4ee2e04dd,client_scene_stop_internal
 a00a78a5ce7bcf22,sentinel
 a03a7e4c45ccf7ef,set_ks_dont_forget
 a0704b0edadd259b,isweaponthrowingknife
@@ -1830,6 +1834,7 @@ ac0938be41101ad6,get_blackboard_cooldown
 ac09dd92b7250c46,setbseqphase
 ac130d84a0eb32ff,shouldexitloop
 ac131861d5a7c389,player_inside_landmark
+ac2b78fb4f00e87e,get_occupant_restrictions
 ac363df0c4bb98e4,v_move_to
 ac45635e35912726,cap_exit_long_death_death
 ac5173199f83b454,ob_laststand
@@ -2106,6 +2111,7 @@ c88e05447107ab4c,mayhemanimations
 c894d015102c0926,vacuum_capture_distance
 c89cd11c33072fed,shellshocksharedfunc
 c8a1f2b404dbf1f3,wondervehicle
+c8aa9ca39ac53bd0,ent_flag_wait_all_array
 c8c492eafcc92ad8,sin_val
 c8d94894e1fd8fc8,get_closest_filtered
 c8e5791b1d17b773,attacker_can_lockon
@@ -3136,6 +3142,7 @@ f55cd1da8fed735e,registerteamoverclock
 f694a141b5dd55de,isdummydown
 f79322810142292e,isenemyperk
 f877fea1e7d31f31,initmtxdeathfx
+f87fb88f9c5add54,waittill_all_or_timeout
 f91170067a6d805c,shouldfillfieldupgrade
 f94272fc69a3d88c,ismapweapon
 f95b721efa3c0163,isfistsmelee
